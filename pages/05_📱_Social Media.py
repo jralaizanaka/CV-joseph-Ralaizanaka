@@ -8,8 +8,8 @@ elif st.session_state.vers == 'english':
     version = "english"
 
 if version == "française":
-    image = Image.open('linkedin.PNG')
-    image2 = Image.open('github.PNG')
+    image = Image.open('linkedin.png')
+    image2 = Image.open('github.png')
     image3 = Image.open('streamlit.jpg')
     st.sidebar.markdown("# Réseaux Sociaux")
     st.image(image)
@@ -30,8 +30,8 @@ if version == "française":
 
 
 else:
-    image = Image.open('linkedin.PNG')
-    image2 = Image.open('github.PNG')
+    image = Image.open('linkedin.png')
+    image2 = Image.open('github.png')
     image3 = Image.open('streamlit.jpg')
     st.sidebar.markdown("# Social Media")
     st.image(image)
